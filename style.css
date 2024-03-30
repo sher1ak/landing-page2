@@ -1,0 +1,177 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, 
+footer,
+.first,
+.second,
+.third,
+.fourth {
+    padding-left: 232px;
+    padding-right: 232px;
+}
+
+header, footer {
+    background-color: #1f2937;
+}
+
+h1{
+    margin: 0;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    gap: 8px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.first {
+    background-color: #1f2937;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    display: flex;
+    color: #f9faf8;
+}
+
+.first img {
+    height: 300px;
+    width: auto;
+}
+
+.first .content {
+    padding-right: 48px;
+}
+
+.first .content p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 8px 0px;
+}
+
+.first .content button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-weight: bold;
+    padding: 8px 32px;
+    border-radius: 12px;
+}
+
+.first .content h2 {
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0px;
+}
+
+
+.second h3 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.second .cards {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding-bottom: 64px;
+}
+
+.second .cards .card {
+    text-align: center;
+    width: 202px;
+}
+
+.second .cards .card img {
+    height: 250px;
+    width: 194px;
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+}
+
+.second .cards .card p {
+    margin: 8px 0;
+}
+
+.third {
+    background-color: #e5e7eb;
+}
+
+.third .quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    padding: 92px 92px 8px 92px;
+    margin: 0;
+}
+
+.third .author {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bolder;
+    text-align: right;
+    padding: 0 140px 92px 140px;   
+}
+
+.fourth {
+    padding-top: 76px;
+    padding-bottom: 76px;
+}
+
+.fourth .modal{
+    background-color: #3882f6;
+    padding: 32px 92px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #f9f9f9;
+}
+
+.fourth .modal h4 {
+    font-size: 28px;
+    margin: 0
+}
+
+.fourth .modal p {
+    font-size: 20px;
+    color: #e5e7eb;
+    margin: 0
+}
+
+.fourth .modal button {
+    font-size: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #3882f6;
+    border: #f9faf8 solid 3px;
+    padding: 4px 24px;
+    color: #f9faf9;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    color: #e5e7eb;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
